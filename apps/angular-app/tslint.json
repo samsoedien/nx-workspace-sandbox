@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "nxWorkspaceSandbox",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "nx-workspace-sandbox",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
